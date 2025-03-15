@@ -13,9 +13,8 @@
 # limitations under the License.
 from typing import TYPE_CHECKING
 
-from ...utils import _LazyModule
-from ...utils.import_utils import define_import_structure
-
+from transformers.src.transformers.utils import _LazyModule
+from transformers.src.transformers.utils.import_utils import define_import_structure
 
 if TYPE_CHECKING:
     from .configuration_big_bird import *
